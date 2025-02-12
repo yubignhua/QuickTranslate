@@ -1,0 +1,166 @@
+.ai-translate-icon {
+  position: fixed !important;
+  display: none;
+  width: 24px !important;
+  height: 24px !important;
+  background: #ffffff !important;
+  border: 1px solid #ddd !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  z-index: 2147483647 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+  transition: transform 0.2s !important;
+  pointer-events: auto !important;
+  user-select: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform-origin: center center !important;
+  min-width: 24px !important;
+  min-height: 24px !important;
+  max-width: 24px !important;
+  max-height: 24px !important;
+}
+
+.ai-translate-icon:hover {
+  transform: scale(1.1) !important;
+  background: #f0f0f0 !important;
+}
+
+.ai-translate-icon svg {
+  color: #666 !important;
+  width: 16px !important;
+  height: 16px !important;
+  display: block !important;
+}
+
+.ai-translate-tooltip {
+  position: fixed !important;
+  padding: 10px !important;
+  background: white !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+  max-width: 300px !important;
+  z-index: 2147483647 !important;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: #333 !important;
+  pointer-events: auto !important;
+  user-select: text !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  word-wrap: break-word !important;
+  min-width: 100px !important;
+  max-width: 300px !important;
+}
+
+.ai-translate-tooltip-content {
+  margin-bottom: 8px !important;
+}
+
+.ai-translate-controls {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: 8px !important;
+  border-top: 1px solid #eee !important;
+  padding-top: 8px !important;
+  gap: 8px !important;
+  flex-direction: column !important;
+}
+
+.ai-translate-controls-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.ai-translate-controls-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.ai-translate-voice-select,
+.ai-translate-rate-select {
+  padding: 2px 4px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  font-size: 12px !important;
+  color: #666 !important;
+  background-color: white !important;
+  cursor: pointer !important;
+  outline: none !important;
+  min-width: 80px !important;
+}
+
+.ai-translate-voice-select:hover,
+.ai-translate-rate-select:hover {
+  border-color: #999 !important;
+}
+
+.ai-translate-voice-select:focus,
+.ai-translate-rate-select:focus {
+  border-color: #666 !important;
+}
+
+.ai-translate-speak-button,
+.ai-translate-speak-original-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0.7 !important;
+  transition: opacity 0.2s !important;
+}
+
+.ai-translate-speak-button:hover,
+.ai-translate-speak-original-button:hover {
+  opacity: 1 !important;
+}
+
+.ai-translate-speak-button svg,
+.ai-translate-speak-original-button svg {
+  width: 16px !important;
+  height: 16px !important;
+  color: #666 !important;
+}
+
+.ai-translate-speak-button.speaking,
+.ai-translate-speak-original-button.speaking {
+  animation: speaking 1s ease-in-out infinite !important;
+}
+
+@keyframes speaking {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.ai-translate-tooltip.loading {
+  background-image: linear-gradient(45deg, #f3f3f3 25%, transparent 25%, transparent 50%, #f3f3f3 50%, #f3f3f3 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+  animation: loading-stripes 1s linear infinite;
+}
+
+@keyframes loading-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 0;
+  }
+} 
