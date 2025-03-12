@@ -1,6 +1,6 @@
-# AI 智能翻译助手 Chrome 扩展
+# AI  QuickTranslate 智能翻译助手 Chrome 扩展
 
-这是一个基于 AI 的智能翻译 Chrome 扩展，支持中英文互译。它提供了简单易用的界面和快捷的翻译功能。
+QuickTranslate  这是一个基于 Gemini AI 的智能翻译 Chrome 扩展，支持中英文互译。它提供了简单易用的界面和快捷的翻译功能。
 
 ## 功能特点
 

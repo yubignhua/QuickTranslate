@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 // Gemini API 配置
-const API_KEY = 'AIzaSyBJtePz_s98sw1Y4BHTB57TWjmgC35Pf38'; // 在这里填入你的 Gemini API key
+const API_KEY = ''; // 在这里填入你的 Gemini API key
 const API_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 // 处理翻译请求
